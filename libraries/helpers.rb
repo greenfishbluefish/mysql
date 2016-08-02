@@ -179,8 +179,8 @@ module MysqlCookbook
 
       # ubuntu
       return '5.5.49-0ubuntu0.12.04.1' if major_version == '5.5' && precise?
-      return '5.5.49-0ubuntu0.14.04.1' if major_version == '5.5' && trusty?
-      return '5.6.30-0ubuntu0.14.04.1' if major_version == '5.6' && trusty?
+      return '5.5.50-0ubuntu0.14.04.1' if major_version == '5.5' && trusty?
+      return '5.6.31-0ubuntu0.14.04.2' if major_version == '5.6' && trusty?
       return '5.7.12-0ubuntu1.1' if major_version == '5.7' && xenial?
 
       # suse
